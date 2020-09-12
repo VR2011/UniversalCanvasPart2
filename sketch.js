@@ -5,7 +5,7 @@ var isDrawing = false;
 var initialInput;
 
 function setup() {
-  canvas = createCanvas(200, 200);
+  canvas = createCanvas(600, 600);
 
   canvas.mousePressed(startPath);
   canvas.parent('canvascontainer');
